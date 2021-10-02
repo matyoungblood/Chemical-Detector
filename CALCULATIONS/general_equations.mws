@@ -1,0 +1,43 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "a := -0.24785410;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"aG$!)5ayC!\")" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "b := 0.023747398;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%\"bG$\"))RZP#!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "c :=
+ -0.00004523;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG$!%BX!\")" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "a;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%\"aG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "b;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"bG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 2 "c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\"cG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 123 "exp_eqn := f-> ((a/(log[10]
+(2)) + (b/((log[10](2))))*((240-f)*(221/125)) + (c/((log[10](2))))*((2
+40-f)*(221/125))^2))*2^18;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(exp_e
+qnGf*6#%\"fG6\"6$%)operatorG%&arrowGF(,(*(\"'W@E\"\"\"%\"aGF/-&%$logG6
+#\"#56#\"\"#!\"\"F/**F.F/%\"bGF/F1F8,&#\"&31\"\"#DF/*&#\"$@#\"$D\"F/9$
+F/F8F/F/**F.F/%\"cGF/F1F8F;F7F/F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "evalf(exp_eqn(236));" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#$!+Cs&f:(!\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "%/2^18;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+Y5yHF!#5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 4 "2^%;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+kP4
+w#)!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "x := 366855;\n" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"xG\"'boO" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 11 "y := 5634;\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%\"yG\"%Mc" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "z := -31;\n
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"zG!#J" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 27 "aniline := f-> x+y*f+z*f^2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%(anilineGf*6#%\"fG6\"6$%)operatorG%&arrowGF(,(%\"xG\"
+\"\"*&%\"yGF.9$F.F.*&%\"zGF.)F1\"\"#F.F.F(F(F(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 20 "evalf(aniline(236));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$!&(4I\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+7 "%/2^16;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+WxV#f%!#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "2^%;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"+qUnts!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "11 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

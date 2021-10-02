@@ -1,0 +1,99 @@
+BODY {
+	MARGIN: 0px 0px 2px 2px; FONT-FAMILY: Verdana,Tahoma,Arial,Helvetica,sans-seref
+}
+TD {
+	FONT-SIZE: 12px
+}
+P {
+	FONT-SIZE: 14px; TEXT-ALIGN: justify
+}
+P.level0 {
+	FONT-SIZE: 12px; MARGIN-LEFT: 20px; TEXT-ALIGN: justify
+}
+TABLE.level0 {
+	MARGIN-LEFT: 20px
+}
+H2 {
+	COLOR: black; BACKGROUND-COLOR: white
+}
+H3 {
+	FONT-SIZE: 22px; COLOR: white; BACKGROUND-COLOR: #7890a5
+}
+H4 {
+	FONT-SIZE: 19px; COLOR: black; BACKGROUND-COLOR: white
+}
+H5 {
+	FONT-SIZE: 15px; COLOR: black; BACKGROUND-COLOR: white
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A:hover {
+	
+}
+A.legal:active {
+	COLOR: black
+}
+A.legal:visited {
+	COLOR: black
+}
+A.legal:link {
+	COLOR: black
+}
+A.legal:hover {
+	COLOR: #7890a5
+}
+.notes {
+	MARGIN-TOP: 0px; FONT-SIZE: 10px; LIST-STYLE-TYPE: lower-roman
+}
+.numbered {
+	LIST-STYLE-TYPE: decimal
+}
+.lettered {
+	LIST-STYLE-TYPE: lower-alpha
+}
+SUP {
+	MARGIN-TOP: 0px; FONT-SIZE: 10px; FONT-FAMILY: Arial,sans-seref
+}
+.bottom {
+	MARGIN-LEFT: 10px; WIDTH: 620px; BACKGROUND-COLOR: white
+}
+.divider {
+	COLOR: #104575
+}
+.nav {
+	BACKGROUND-COLOR: #356795
+}
+.body {
+	MARGIN-BOTTOM: 40px; MARGIN-LEFT: 10px; WIDTH: 620px
+}
+.normal {
+	FONT-SIZE: 14px; TEXT-ALIGN: justify
+}
+.bluebg {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: white; PADDING-TOP: 2px; BACKGROUND-COLOR: #7890a5
+}
+.bluebg_hilite {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 2px; BACKGROUND-COLOR: #66ff99
+}
+.tanbg {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-COLOR: #d6c4a4
+}
+.tanbg_0 {
+	PADDING-LEFT: 20px; BACKGROUND-COLOR: #d6c4a4
+}
+.tanbg_hilite {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 2px; BACKGROUND-COLOR: #66ff99
+}
+.tanbg_right {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-COLOR: #d6c4a4; TEXT-ALIGN: right
+}
+.command {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: 1px solid; COLOR: red; PADDING-TOP: 2px; BORDER-BOTTOM: 1px solid
+}

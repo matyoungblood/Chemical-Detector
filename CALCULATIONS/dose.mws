@@ -1,0 +1,29 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(student):" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 27 "beta := beta1+alpha*log(k);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%%betaG,&%&beta1G\"\"\"*&%&alphaGF'-%#lnG6#%\"kGF
+'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 94 "Concentration := t->
+ ((exp(-beta/alpha))/alpha)*(exp(Voltage(t)/alpha))*(diff(Voltage(t), \+
+t));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.ConcentrationGf*6#%\"tG6\"6
+$%)operatorG%&arrowGF(**-%$expG6#,$*&%%betaG\"\"\"%&alphaG!\"\"F5F3F4F
+5-F.6#*&-%(VoltageG6#9$F3F4F5F3-%%diffG6$F9F<F3F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "Dose := t -> Int(Concentration(t), \+
+t=0..infinity);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%DoseGf*6#%\"tG6
+\"6$%)operatorG%&arrowGF(-%$IntG6$-%.ConcentrationG6#9$/F2;\"\"!%)infi
+nityGF(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "simplify(Dos
+e(t));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*(%&alphaG!\"\"-%%d
+iffG6$-%(VoltageG6#%\"tGF/\"\"\"-%$expG6#,$*&,(%&beta1GF0*&F'F0-%#lnG6
+#%\"kGF0F0F,F(F0F'F(F(F0/F/;\"\"!%)infinityG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 27 "simplify(Concentration(t));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%&alphaG!\"\"-%%diffG6$-%(VoltageG6#%\"tGF,\"\"\"-%$e
+xpG6#,$*&,(%&beta1GF-*&F$F--%#lnG6#%\"kGF-F-F)F%F-F$F%F%F-" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "7 0 0" 0 }{VIEWOPTS 1 
+1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

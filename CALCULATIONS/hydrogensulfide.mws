@@ -1,0 +1,91 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "V1 := 10.608;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#V1G$\"&31\"!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "E1 := 0.054174738;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%#E1G$\")QZ<a!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "V2 :
+= 88.4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#V2G$\"$%))!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "E2 := 0.188662479;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#E2G$\"*zCm)=!\"*" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 42 "a := 240-(125/221)*V1 = alpha*ln(E1)+beta;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG/$\"++++SB!\"(,&*&$\"+o0a:H!\"*
+\"\"\"%&alphaGF.!\"\"%%betaGF." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 42 "b := 240-(125/221)*V2 = alpha*ln(E2)+beta;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"bG/$\"+++++>!\"(,&*&$\"+'o&zn;!\"*\"\"\"%&alphaGF
+.!\"\"%%betaGF." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve(\{
+a,b\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%&alphaG$!+!*=OEN!\")/%%
+betaG$\"+&)[(=J\"!\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "G := F-> (240-F)/(125/221)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"GGf*6#%\"FG6\"6$%)operatorG%&
+arrowGF(,&#\"&31\"\"#D\"\"\"*&#\"$@#\"$D\"F09$F0!\"\"F(F(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "H := F-> -4.451706201+0.0231
+40109*G(F);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"HGf*6#%\"FG6\"6$%)o
+peratorG%&arrowGF(,&$\"+,iq^W!\"*!\"\"*&$\")4,9BF/\"\"\"-%\"GG6#9$F4F4
+F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Dose := F-> 2^(H(
+F));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%DoseGf*6#%\"FG6\"6$%)operat
+orG%&arrowGF()\"\"#-%\"HG6#9$F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "log_d := F-> -1.34009633+0.006965863*G(F);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%&log_dGf*6#%\"FG6\"6$%)operatorG%&arrowGF(
+,&$\"*L'4S8!\")!\"\"*&$\"(je'p!\"*\"\"\"-%\"GG6#9$F5F5F(F(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "dose_10 := 10^log_d(F);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(dose_10G)\"#5,&$\"+e'ech\"!\"*\"\"
+\"*&$\"+yXcJ7!#6F+%\"FGF+!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "expand(Dose(F));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&$\"+W$
+Qs7%!\")\"\"\")\"\"#,$*&$\"+r7<\"4%!#6F(%\"FGF(!\"\"F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "taylor(Dose(F),F);" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#+1%\"FG,$*&\"#K\"\"\")\"\"##\"&uG\"\"&p]$F(F(\"\"!
+,$*&#\"'3=N\"'D(o#F(*&F)F(-%#lnG6#F*F(F(!\"\"F(,$*&#\"+w&))Q$>\",Dc78A
+(F(*&F)F()F5F*F(F(F(F*,$*&#\"/WX+r6E@\"2vVt]lT;#eF(*&F)F()F5\"\"$F(F(F
+8FG,$*&#\"2%=*)f]GjVe\"8v=#\\4'fPl?Wc\"F(*&F)F()F5\"\"%F(F(F(FO,$*&#\"
+6'*))3X[f&**[Ck\">voH/%RIbx!4q%*>5#F(*&F)F()F5\"\"&F(F(F8FW-%\"OG6#F(
+\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#+1%\"FG$\"+Y$Qs7%!\")\"\"!$!+xbRq6!\"*\"\"\"
+$\"+GW\\f;!#6\"\"#$!+Belo:!#8\"\"$$\"+0A476!#:\"\"%$!+\">1tI'!#=\"\"&-
+%\"OG6#F,\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 146 "R1 := co
+nvert(series(41.27238346-1.170395577*F+.1659494428e-1*F^2-.1568655823e
+-3*F^3+.1112092205e-5*F^4-.6307306191e-8*F^5+O(F^6),F,6),'polynom');" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#R1G,.$\"+Y$Qs7%!\")\"\"\"*&$\"+xb
+Rq6!\"*F)%\"FGF)!\"\"*&$\"+GW\\f;!#6F))F.\"\"#F)F)*&$\"+Belo:!#8F))F.
+\"\"$F)F/*&$\"+0A476!#:F))F.\"\"%F)F)*&$\"+\">1tI'!#=F))F.\"\"&F)F/" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "test := F-> 2^(2681*(F-109
+)/2^16);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%testGf*6#%\"FG6\"6$%)op
+eratorG%&arrowGF()\"\"#,&*&#\"%\"o#\"&Ob'\"\"\"9$F3F3#\"'HAHF2!\"\"F(F
+(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "evalf(test(235));" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+'[S<c$!\")" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 17 "evalf(Dose(220));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+,-zd!)!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 5 "G(F);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&#\"&31\"\"#D\"\"\"*(\"
+$@#F'\"$D\"!\"\"%\"FGF'F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+35 "huh := F-> -4.45 + 9.819-.0409*(F);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%$huhGf*6#%\"FG6\"6$%)operatorG%&arrowGF(,&$\"%p`!\"$\"\"\"*&$
+\"$4%!\"%F09$F0!\"\"F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+25 "huh_1 := F-> huh(F)*2^16;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&hu
+h_1Gf*6#%\"FG6\"6$%)operatorG%&arrowGF(,$*&\"&Ob'\"\"\"-%$huhG6#9$F/F/
+F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(huh_1(F));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&$\"*%yi=N!\"$\"\"\"*&$\")CU!o#!
+\"%F'%\"FGF'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "huh_2 \+
+:= F -> 2^huh(F);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&huh_2Gf*6#%\"F
+G6\"6$%)operatorG%&arrowGF()\"\"#-%$huhG6#9$F(F(F(" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 18 "evalf(huh_2(235));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+Kb*HG&!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "evalf(huh_2(100));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+?rqEC!
+\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "taylor(2^x,x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#+1%\"xG\"\"\"\"\"!-%#lnG6#\"\"#F%,$*&#
+F%F*F%*$)F'F*F%F%F%F*,$*&#F%\"\"'F%*$)F'\"\"$F%F%F%F6,$*&#F%\"#CF%*$)F
+'\"\"%F%F%F%F=,$*&#F%\"$?\"F%*$)F'\"\"&F%F%F%FD-%\"OG6#F%F3" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 121 "R0 := convert(series(1+ln(2
+)*x+1/2*ln(2)^2*x^2+1/6*ln(2)^3*x^3+1/24*ln(2)^4*x^4+1/120*ln(2)^5*x^5
++O(x^6),x,6),'polynom');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#R0G,.\"
+\"\"F&*&-%#lnG6#\"\"#F&%\"xGF&F&*&#F&F+F&*&)F(F+F&)F,F+F&F&F&*&#F&\"\"
+'F&*&)F(\"\"$F&)F,F7F&F&F&*&#F&\"#CF&*&)F(\"\"%F&)F,F>F&F&F&*&#F&\"$?
+\"F&*&)F(\"\"&F&)F,FEF&F&F&" }}}}{MARK "30" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

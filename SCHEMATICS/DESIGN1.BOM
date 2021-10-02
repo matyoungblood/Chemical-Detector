@@ -1,0 +1,44 @@
+Micro Processor  Revised: Sunday, May 11, 2003
+Matthew Youngblood          Revision: 0.0
+
+
+
+
+
+
+
+Bill Of Materials            May 12,2003      3:58:33	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	11	C1,C8,C9,C10,C11,C12,C16,	0.1uF
+		C17,C18,C19,C20
+2	1	C2	0.01uF
+3	1	C3	0.033uF
+4	2	C4,C5	20pF
+5	1	C13	10pF
+6	1	C14	10uF
+7	1	C15	.01uF
+8	3	D1,D2,D3	LED
+9	1	J1	8 HEADER
+10	1	LS1	SPEAKER
+11	2	Q2,Q1	2N2481
+12	1	R1	10M
+13	4	R2,R4,R5,R13	10k
+14	1	R3	330k
+15	5	R6,R8,R10,R11,R12	1k
+16	1	R7	330
+17	1	R9	POT
+18	4	SW1,SW2,SW3,SW4	SW PUSHBUTTON
+19	1	TP1	PWR
+20	2	TP2,TP4	GND
+21	1	TP3	DB9_IN
+22	1	TP5	DB9_OUT
+23	1	U1	MC68HC908GP32
+24	2	U3,U2	TCS230
+25	1	U4	HM628512C
+26	2	U5,U6	DM74LS374WM
+27	1	U7	MAX232A
+28	1	U8	VREG
+29	1	Y1	CRYSTAL

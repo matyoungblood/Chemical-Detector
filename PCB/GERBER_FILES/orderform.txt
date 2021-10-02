@@ -1,0 +1,114 @@
+Date            ;04/21/03
+First Name      ;Matthew
+Last Name       ;Youngblood
+Address         ;NCSU Box 3517
+City            ;Raleigh
+Prov/ST.        ;NC
+Country         ;USA
+PC/ZIP          ;27607
+Company         ;NORTH CAROLINA STATE UNIVERSITY
+Area Code       ;919
+Phone           ;512-4601
+Fax             ;xxx-xxxx
+Email Address   ;mdyoungb@unity.ncsu.edu
+CAD System      ;ORCAD
+Shipping Method ;FEDEX
+Shipping ACCNT# ;
+Credit Card#    ;
+Visa/MC         ;
+Exp. Date       ;xx/xx
+Cheque/MO#      ;
+PO #            ;01368251
+SERVICE TYPE                          ;P1
+Laminate Type                         ;FR4
+Laminate Thickness                    ;.062
+Circuit Board Size (in DECIMAL INCHES);03.264 X 02.136   
+Quantity Required (even numbers only) ;4
+GERBER TOP LAYER FILE NAME            ;DETECTOR.TOP
+GERBER BOTTOM LAYER FILE NAME         ;DETECTOR.BOT
+GERBER TOP SOLDER MASK FILE NAME      ;N/A on P1
+GERBER BOTTOM SOLDER MASK FILE NAME   ;N/A on P1
+GERBER TOP COMPONENT MASK FILE NAME   ;N/A on P1
+GERBER BOTTOM COMP MASK FILE NAME     ;N/A on P1
+GERBER APERTURE TABLE FILE NAME       ;DETECTOR.lis
+ASCII NC DRILL FILE NAME              ;thruhole.tap
+NC DRILL TOOL SIZE FILE NAME          ;DETECTOR.DTS
+SPECIAL INSTRUCTIONS FILE NAME        ;
+
+-----------------------cut here----------------------------
+
+Service Type Field Options:
+P1 = proto types - in by 11 AM ships next business day by 5PM
+P2 = full production run - masking options, 15 - 20 days
+
+Laminate Type Field Options:
+FR4 = is standard material 
+GML1000  = is available for RF/microwave application
+
+
+Laminate Thickness Field Options:
+
+FR4
+.062 is standard - @ $0.95CA/$0.65 US per sq. in.
+.032 available - call for pricing info or visit our www
+.092 available - call for pricing info or visit our www
+
+GML1000
+.020 available - call for pricing info or visit our www 
+.030 available - call for pricing info or visit our www
+.060 available - call for pricing info or visit our www
+
+http://www.apcircuits.com/html/service_information_and_links_.html
+
+The order from is not human read, it's done by a database 
+engine script. DO NOT put special instructions anywhere on 
+this page create a READ.ME file and specify it's name on
+the line: "SPECIAL INSTRUCTIONS FILE NAME; READ.ME"
+
+DO NOT remove, rename or modify field names. Leave any
+field names that do not apply blank. Enter information 
+to the RIGHT of the";" ;"your info on this side"
+
+Save as a PURE ASCII FILE - NO WORD PROCESSOR FORMATS
+
+Only Visa and Master cards are accepted.  
+AMEX and Discover cards are NOT accepted.
+
+Check accuracy of the Card number and card Expire Date.
+
+You may include a PO# for reference and it will appear on 
+your invoice. Net 30's are for pre approved accounts only.
+
+FEDEX is our exclusive carrier. You may include your Fedex 
+Account Number if you don't want to be invoiced for 
+shipping. If you have provided a FEDEX number there will be
+a $5.00 S/H fee added to your invoice. A $25.00 CDN charge 
+will be applied to your invoice if you don't have one.
+
+Attachments and inquiries     : staff@apcircuits.com
+General Inquiries             : staff@apcircuits.com
+Invoice Inquiries             : accounts@apcircuits.com
+IS/IT/CAD Support             : support@apcircuits.com
+
+Our Web Site: http://www.apcircuits.com
+
+Our hours of operation are 9 AM to 5 PM Mountain Monday 
+to Friday and We can be reached at the following numbers:
+(403) 250-3406 Voice
+(403) 250-3465 Fax
+
+Our Address:
+
+AP Circuits
+#3. 1112 - 40th Ave N.E.
+Calgary, AB
+CA T2E 5T8
+
+Holidays and plant closures:
+http://www.apcircuits.com/html/proto_type_production_schedule.html
+
+Please note that during Christmas through to New Years we
+have a long shut down. The cut off time for our P2 service 
+is approx. 10 business days prior to the actual closing of 
+the shop and P1 orders are cut off approx.  This lead time
+ensures that our delivery commitments can be met.

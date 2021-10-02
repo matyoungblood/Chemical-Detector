@@ -1,0 +1,37 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q1 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.30) 
+WARNING:  [DRC0004]  Possible pin type conflict U3,OUT Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE2  (7.10, 4.00) 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q5 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.70) 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q0 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.20) 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q6 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.80) 
+WARNING:  [DRC0004]  Possible pin type conflict U7,R\1\O\U\T\ Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE4  (4.00, 2.60) 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q4 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.60) 
+WARNING:  [DRC0004]  Possible pin type conflict U2,OUT Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE2  (7.10, 1.80) 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q7 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.90) 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q2 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.40) 
+WARNING:  [DRC0004]  Possible pin type conflict U5,Q3 Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE3  (7.20, 3.50) 
+
+Checking for Unconnected Nets
+
+Checking for Invalid References
+
+Checking for Duplicate References
+
+Check Bus width mismatch
