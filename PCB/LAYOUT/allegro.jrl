@@ -1,0 +1,23 @@
+\t (00:00:04) allegro 17.4 S019 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Sun Oct  3 18:29:52 2021
+\t (00:00:04)         Host=PC User=Matthew Pid=18112 CPUs=8
+\t (00:00:04) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Starting new design...
+\i (00:00:07) trapsize 116667
+\i (00:00:07) generaledit 
+\i (00:00:20) orcad in 
+\i (00:00:22) setwindow form.orcad_in
+\i (00:00:22) FORM orcad_in filename_browse  
+\i (00:00:37) fillin "C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/DETECTOR.MAX"
+\i (00:00:39) FORM orcad_in execute  
+\t (00:00:39) Starting Performing Translation...
+\i (00:00:43) setwindow text
+\i (00:00:43) close
+\i (00:00:44) setwindow form.orcad_in
+\i (00:00:44) FORM orcad_in cancel  
+\i (00:00:44) setwindow pcb
+\i (00:00:44) generaledit 
+\i (00:00:48) exit 
+\t (00:00:54)     Journal end - Sun Oct  3 18:30:42 2021

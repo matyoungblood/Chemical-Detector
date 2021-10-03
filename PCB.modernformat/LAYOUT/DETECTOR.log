@@ -1,0 +1,59 @@
+Layout To Allegro PCB Design   Version 16.2.0
+	Copyright 1985-2011 Cadence Design Systems, Inc.
+ Creating padstack definitions.
+ Creating symbols.
+ ...  50 entities converted.
+ ...  100 entities converted.
+ Creating independent data.
+ ...  150 entities converted.
+ ...  200 entities converted.
+ ...  250 entities converted.
+ ...  300 entities converted.
+ ...  350 entities converted.
+ ...  400 entities converted.
+ ...  450 entities converted.
+ ...  500 entities converted.
+ ...  550 entities converted.
+ ...  600 entities converted.
+ ...  650 entities converted.
+ ...  700 entities converted.
+ ...  750 entities converted.
+ ...  800 entities converted.
+ ...  850 entities converted.
+ ...  900 entities converted.
+ ...  950 entities converted.
+ ...  1000 entities converted.
+ ...  1050 entities converted.
+ ...  1100 entities converted.
+ ...  1150 entities converted.
+ ...  1200 entities converted.
+ ...  1250 entities converted.
+ ...  1300 entities converted.
+ ...  1350 entities converted.
+ ...  1400 entities converted.
+ ...  1450 entities converted.
+ ...  1500 entities converted.
+ ...  1550 entities converted.
+ ...  1600 entities converted.
+ ...  1650 entities converted.
+ ...  1700 entities converted.
+ ...  1750 entities converted.
+ ...  1800 entities converted.
+ ...  1850 entities converted.
+ ...  1900 entities converted.
+ ...  1950 entities converted.
+ ...  2000 entities converted.
+ ...  2050 entities converted.
+ ...  2100 entities converted.
+ ...  2150 entities converted.
+ ...  2200 entities converted.
+ ...  2250 entities converted.
+
+Netlist Warnings and Errors recorded in 'C:\Users\Matthew\Documents\GitHub\Chemical-Detector\PCB.modernformat\LAYOUT\netin.log':
+Total Netlist Warnings =  15.
+Total Netlist Errors   =  0.
+Total Device File Warnings =  0.
+Total Device File Errors   =  0.
+
+
+Translate time 0 seconds

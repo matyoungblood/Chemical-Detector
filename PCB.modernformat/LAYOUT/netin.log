@@ -1,0 +1,911 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro NETLIST IN Log File                                      )
+(                                                                     )
+(    Drawing          : DETECTOR.brd                                  )
+(    Software Version : -2015unreleased                               )
+(    Date/Time        : Sun Oct 03 18:30:28 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sun Oct 03 18:30:28 2021				Page     1
+
+
+
+
+Netlist File: 'C:\Users\Matthew\Documents\GitHub\Chemical-Detector\PCB.modernf~
+ormat\LAYOUT\DETECTOR.txt'      Physical Design File: 'C:\Users\Matthew\Docume~
+nts\GitHub\Chemical-Detector\PCB.modernformat\LAYOUT\DETECTOR.brd'
+
+===========================================================
+
+$PACKAGES
+'SMC0805' ! 'CAP_NP_0' ! '0.1UF' ; C1
+'SMC0805' ! 'CAP' ! '0.01UF' ; C2
+'SMC0805' ! 'CAP' ! '0.033UF' ; C3
+'SMC0805' ! 'CAP' ! '20PF' ; C4
+'SMC0805' ! 'CAP' ! '20PF' ; C5
+'SMC0805' ! 'CAP_NP' ! 'CAP NP' ; C8
+'SMC0805' ! 'CAP_NP' ! 'CAP NP' ; C9
+'SMC0805' ! 'CAP_NP' ! 'CAP NP' ; C10
+'SMC0805' ! 'CAP_NP' ! 'CAP NP' ; C11
+'SMC0805' ! 'CAP_NP' ! 'CAP NP' ; C12
+'SMC0805' ! 'CAP' ! '10PF' ; C13
+'SMC0805' ! 'CAP' ! '10UF' ; C14
+'SMC0805' ! 'CAP' ! '.01UF' ; C15
+'SMC0805' ! 'CAP_NP' ! '0.1UF' ; C16
+'SMC0805' ! 'CAP_NP' ! '0.1UF' ; C17
+'SMC0805' ! 'CAP_NP' ! '0.1UF' ; C18
+'SMC0805REV1' ! 'CAP_NP' ! '0.1UF' ; C19
+                                    ^
+WARNING(SPMHNI-82): Package symbol 'SMC0805REV1' replaces device file package ~
+'SMC0805'.
+-------------------------------------------------------------------------------
+'SMC0805REV1' ! 'CAP_NP' ! '0.1UF' ; C20
+'RAD150X100LS100031D1' ! 'LED' ! 'LED' ; D1
+'RAD150X100LS100031D2' ! 'LED' ! 'LED' ; D2
+                                        ^
+WARNING(SPMHNI-82): Package symbol 'RAD150X100LS100031D2' replaces device file~
+ package 'RAD150X100LS100031D1'.
+-------------------------------------------------------------------------------
+'RAD150X100LS100031' ! 'LED' ! 'LED' ; D3
+                                      ^
+WARNING(SPMHNI-82): Package symbol 'RAD150X100LS100031' replaces device file p~
+ackage 'RAD150X100LS100031D1'.
+-------------------------------------------------------------------------------
+'WALCON100VHTM2OESW32514' ! '8_HEADER_1' ! '8 HEADER' ; J1
+'RAD150X100LS100031' ! 'SPEAKER' ! 'SPEAKER' ; LS1
+'SMSOT23312' ! '2N2481' ! '2N2481' ; Q1
+'SMSOT23312' ! '2N2481' ! '2N2481' ; Q2
+'SMR0805REV1' ! 'RESISTOR' ! '10M' ; R1
+'SMR0805REV1' ! 'RESISTOR' ! '10K' ; R2
+                                    ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '10M' with '10K'.
+-------------------------------------------------------------------------------
+'SMR0805REV1' ! 'RESISTOR' ! '330K' ; R3
+                                     ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '10M' with '330K'.
+Sun Oct 03 18:30:28 2021				Page     2
+
+
+
+
+-------------------------------------------------------------------------------
+'VREG_REV8' ! 'POT' ! '10K' ; R4
+'VREG_REV7' ! 'POT' ! '10K' ; R5
+                             ^
+WARNING(SPMHNI-82): Package symbol 'VREG_REV7' replaces device file package 'V~
+REG_REV8'.
+-------------------------------------------------------------------------------
+'SMR0805REV1' ! 'RESISTOR' ! '1K' ; R6
+                                   ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '10M' with '1K'.
+-------------------------------------------------------------------------------
+'SMR0805REV1' ! 'RESISTOR' ! '330' ; R7
+                                    ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '10M' with '330'.
+-------------------------------------------------------------------------------
+'SMR0805REV1' ! 'RESISTOR' ! '1K' ; R8
+'VREG_REV9' ! 'POT' ! 'POT' ; R9
+                             ^
+WARNING(SPMHNI-82): Package symbol 'VREG_REV9' replaces device file package 'V~
+REG_REV8'.
+-------------------------------------------------------------------------------
+                             ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '10K' with 'POT'.
+-------------------------------------------------------------------------------
+'SMR0805REV1' ! 'RESISTOR' ! '1K' ; R10
+'SMR0805REV1' ! 'RESISTOR' ! '1K' ; R11
+'SMR0805REV1' ! 'RESISTOR' ! '1K' ; R12
+'SMR0805REV1' ! 'RESISTOR' ! '10K' ; R13
+'RAD150X100LS100031' ! 'SW_PUSHBUTTON' ! 'SW PUSHBUTTON' ; SW1
+'RAD150X100LS100031' ! 'SW_PUSHBUTTON' ! 'SW PUSHBUTTON' ; SW2
+'RAD150X100LS100031' ! 'SW_PUSHBUTTON' ! 'SW PUSHBUTTON' ; SW3
+'RAD150X100LS100031' ! 'SW_PUSHBUTTON' ! 'SW PUSHBUTTON' ; SW4
+'TP_TP1' ! 'TEST_POINT' ! 'TEST POINT' ; TP1
+'TP_TP2' ! 'TEST_POINT' ! 'TEST POINT' ; TP2
+                                        ^
+WARNING(SPMHNI-82): Package symbol 'TP_TP2' replaces device file package 'TP_T~
+P1'.
+-------------------------------------------------------------------------------
+'TP_TP3' ! 'TEST_POINT' ! 'DB9_IN' ; TP3
+                                    ^
+WARNING(SPMHNI-82): Package symbol 'TP_TP3' replaces device file package 'TP_T~
+P1'.
+-------------------------------------------------------------------------------
+'TP' ! 'TEST_POINT' ! 'GND' ; TP4
+                             ^
+WARNING(SPMHNI-82): Package symbol 'TP' replaces device file package 'TP_TP1'.
+-------------------------------------------------------------------------------
+'TP_TP5' ! 'TEST_POINT' ! 'DB9_OUT' ; TP5
+                                     ^
+WARNING(SPMHNI-82): Package symbol 'TP_TP5' replaces device file package 'TP_T~
+P1'.
+-------------------------------------------------------------------------------
+Sun Oct 03 18:30:28 2021				Page     3
+
+
+
+
+'QUAD80M44WG1345' ! 'MC68HC908GP32_4' ! 'MC68HC908GP32' ; U1
+'SOG0508WG275L250REV1' ! 'TCS230' ! 'TCS230' ; U2
+'SOG0508WG275L250' ! 'TCS230' ! 'TCS230' ; U3
+                                          ^
+WARNING(SPMHNI-82): Package symbol 'SOG0508WG275L250' replaces device file pac~
+kage 'SOG0508WG275L250REV1'.
+-------------------------------------------------------------------------------
+'MEMORY_REV3' ! 'HM628512C' ! 'HM628512C' ; U4
+'SOG05020WG420L500' ! 'DM74LS374WM_1' ! 'DM74LS374WM' ; U5
+'SOG05020WG420L500' ! 'DM74LS374WM_1' ! 'DM74LS374WM' ; U6
+'SOG05016WG420L400' ! 'MAX232A_1' ! 'MAX232A' ; U7
+'VREG' ! 'REG1117SO1' ! 'VREG' ; U8
+'RAD150X100LS100031' ! 'CRYSTAL' ! 'CRYSTAL' ; Y1
+$NETS
+'CGMXFC' ; U1.42 R2.1 C2.1
+'DB9_IN' ; U7.13 TP3.1
+'DB9_OUT' ; U7.14 TP5.1
+'GND' ; C19.2 U2.4 C20.2 SW1.1 C4.2 C5.2,
+ U4.1 J1.10 R9.3 TP2.1 U8.2 J1.8 J1.7,
+ C1.2 J1.9 SW4.1 C3.2 C12.2 C9.2 SW3.1,
+ J1.1 Q1.1 U4.2 U7.15 SW2.1 C18.2 LS1.2,
+ C17.2 U5.10 C14.2 Q2.1 U3.4 U4.16 C16.2,
+ C13.2 U6.10 C2.2 TP4.1 U4.31 U4.30 C15.2,
+ U1.41 U1.16 U1.31
+'IRQ_N' ; R12.2 U1.11 SW3.2
+'MEM0' ; U6.2 U5.3 U4.13
+'MEM1' ; U6.5 U5.4 U4.14
+'MEM2' ; U5.7 U6.6 U4.15
+'MEM3' ; U5.8 U4.17 U6.9
+'MEM4' ; U6.12 U5.13 U4.18
+'MEM5' ; U4.19 U6.15 U5.14
+'MEM6' ; U5.17 U6.16 U4.20
+'MEM7' ; U5.18 U6.19 U4.21
+'N05966' ; R3.2 C5.1 Y1.2
+'N72697' ; R6.2 Q1.2
+'N705061' ; D2.1 R5.3
+'N76634' ; U7.1 C8.1
+'N76755' ; C8.2 U7.3
+'N76890' ; C10.1 U7.4
+'N77037' ; U7.5 C10.2
+'N77648' ; C11.2 U7.2
+'N80385' ; U7.6 C12.1
+'N86778' ; R9.2 J1.3
+'N93530' ; Q1.3 D1.2 D2.2
+'N94242' ; D3.2 Q2.3
+'N94370' ; R8.2 Q2.2
+'N95100' ; R7.1 D3.1
+'N124933' ; U1.1 SW4.2 R13.2
+'N140615' ; U8.1 TP1.1
+'N296471' ; C3.1 R2.2
+'N931841' ; R4.3 D1.1
+'OSC1' ; R1.1 Y1.1 C4.1 U1.44
+Sun Oct 03 18:30:28 2021				Page     4
+
+
+
+
+'OSC2' ; U1.43 R1.2 R3.1
+'PTA0' ; U1.32 SW1.2 R10.2
+'PTA1' ; SW2.2 R11.2 U1.33
+'PTA2' ; U1.34 U6.11
+'PTA3' ; U6.1 U1.35
+'PTA4' ; U5.11 U1.36
+'PTA5' ; U5.1 U1.37
+'PTA6' ; U1.38 U4.29
+'PTA7' ; J1.5 U1.39
+'PTB0' ; U1.22 U6.3 U5.2 U4.12
+'PTB1' ; U6.4 U5.5 U4.11 U1.23
+'PTB2' ; U4.10 U6.7 U5.6 U1.24
+'PTB3' ; U4.9 U6.8 U5.9 U1.25
+'PTB4' ; U5.12 U4.8 U6.13 U1.26
+'PTB5' ; U1.27 U6.14 U4.7 U5.15
+'PTB6' ; U1.28 U4.6 U6.17 U5.16
+'PTB7' ; U4.5 U5.19 U1.29 U6.18
+'PTC0' ; J1.11 U4.27 U1.2
+'PTC1' ; J1.12 U4.26 U1.3
+'PTC2' ; J1.13 U4.23 U1.4
+'PTC3' ; J1.14 U4.25 U1.5
+'PTC4' ; U1.6 U4.4 J1.4
+'PTC5' ; U4.28 U1.7
+'PTC6' ; U4.3 U1.8
+'PTD0' ; U1.12 R6.1 U3.3 U2.3
+'PTD1' ; U2.7 U4.22 U3.7 U1.13
+'PTD2' ; U1.14 U2.8 U4.24 U3.8
+'PTD3' ; J1.6 U1.15
+'PTD4' ; U1.18 U2.6
+'PTD5' ; R8.1 U1.19
+'PTD6' ; U1.20 U3.6
+'PTD7' ; LS1.1 U1.21
+'PTE0' ; U7.11 U1.9
+'PTE1' ; U7.12 U1.10
+'VCC' ; U1.17 J1.2 R13.1 U4.32 C16.1 U3.1,
+ C1.1 C18.1 U3.5 R9.1 C9.1 C19.1 U2.5,
+ U5.20 R4.1 R4.2 C17.1 U2.2 U2.1 C20.1,
+ R11.1 R10.1 U7.16 U6.20 C13.1 C15.1 R5.2,
+ U8.3 C14.1 R5.1 R7.2 R12.1 U3.2 C11.1,
+ U1.40 U1.30
+$A_PROPERTIES
+$END
+
+===========================================================
+End of NETLIST IN Syntax/Logic Check
+===========================================================
+
+Total Netlist Warnings =  15.
+Total Netlist Errors   =  0.
+Sun Oct 03 18:30:28 2021				Page     1
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np_0.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP_0)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     2
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     3
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     4
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     5
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     6
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     7
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     8
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page     9
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    10
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    11
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    12
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    13
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    14
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    15
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    16
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    17
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    18
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE SMC0805
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SMC0805REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    19
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/led.txt'.
+
+
+(DEVICE DESCRIPTION FILE: LED)
+PACKAGE RAD150X100LS100031D1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(RAD150X100LS100031D2;RAD150X100LS100031)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    20
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/led.txt'.
+
+
+(DEVICE DESCRIPTION FILE: LED)
+PACKAGE RAD150X100LS100031D1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(RAD150X100LS100031D2;RAD150X100LS100031)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    21
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/led.txt'.
+
+
+(DEVICE DESCRIPTION FILE: LED)
+PACKAGE RAD150X100LS100031D1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(RAD150X100LS100031D2;RAD150X100LS100031)'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    22
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/8_header_1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: 8_HEADER_1)
+PACKAGE WALCON100VHTM2OESW32514
+PACKAGEPROP VALUE '8 HEADER'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 14
+END
+Sun Oct 03 18:30:28 2021				Page    23
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/speaker.txt'.
+
+
+(DEVICE DESCRIPTION FILE: SPEAKER)
+PACKAGE RAD150X100LS100031
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    24
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/2n2481.txt'.
+
+
+(DEVICE DESCRIPTION FILE: 2N2481)
+PACKAGE SMSOT23312
+PACKAGEPROP VALUE '2N2481'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 3
+END
+Sun Oct 03 18:30:28 2021				Page    25
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/2n2481.txt'.
+
+
+(DEVICE DESCRIPTION FILE: 2N2481)
+PACKAGE SMSOT23312
+PACKAGEPROP VALUE '2N2481'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 3
+END
+Sun Oct 03 18:30:28 2021				Page    26
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    27
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    28
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    29
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/pot.txt'.
+
+
+(DEVICE DESCRIPTION FILE: POT)
+PACKAGE VREG_REV8
+PACKAGEPROP VALUE '10K'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(VREG_REV7;VREG_REV9)'
+CLASS IC
+PINCOUNT 3
+END
+Sun Oct 03 18:30:28 2021				Page    30
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/pot.txt'.
+
+
+(DEVICE DESCRIPTION FILE: POT)
+PACKAGE VREG_REV8
+PACKAGEPROP VALUE '10K'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(VREG_REV7;VREG_REV9)'
+CLASS IC
+PINCOUNT 3
+END
+Sun Oct 03 18:30:28 2021				Page    31
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    32
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    33
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    34
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/pot.txt'.
+
+
+(DEVICE DESCRIPTION FILE: POT)
+PACKAGE VREG_REV8
+PACKAGEPROP VALUE '10K'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(VREG_REV7;VREG_REV9)'
+CLASS IC
+PINCOUNT 3
+END
+Sun Oct 03 18:30:28 2021				Page    35
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    36
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    37
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    38
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/resistor.txt'.
+
+
+(DEVICE DESCRIPTION FILE: RESISTOR)
+PACKAGE SMR0805REV1
+PACKAGEPROP VALUE '10M'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    39
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/sw_pushbutton.txt'.
+
+
+(DEVICE DESCRIPTION FILE: SW_PUSHBUTTON)
+PACKAGE RAD150X100LS100031
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    40
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/sw_pushbutton.txt'.
+
+
+(DEVICE DESCRIPTION FILE: SW_PUSHBUTTON)
+PACKAGE RAD150X100LS100031
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    41
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/sw_pushbutton.txt'.
+
+
+(DEVICE DESCRIPTION FILE: SW_PUSHBUTTON)
+PACKAGE RAD150X100LS100031
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    42
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/sw_pushbutton.txt'.
+
+
+(DEVICE DESCRIPTION FILE: SW_PUSHBUTTON)
+PACKAGE RAD150X100LS100031
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Sun Oct 03 18:30:28 2021				Page    43
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/test_point.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TEST_POINT)
+PACKAGE TP_TP1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(TP_TP2;TP_TP3;TP;TP_TP5)'
+CLASS IC
+PINCOUNT 1
+END
+Sun Oct 03 18:30:28 2021				Page    44
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/test_point.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TEST_POINT)
+PACKAGE TP_TP1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(TP_TP2;TP_TP3;TP;TP_TP5)'
+CLASS IC
+PINCOUNT 1
+END
+Sun Oct 03 18:30:28 2021				Page    45
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/test_point.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TEST_POINT)
+PACKAGE TP_TP1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(TP_TP2;TP_TP3;TP;TP_TP5)'
+CLASS IC
+PINCOUNT 1
+END
+Sun Oct 03 18:30:28 2021				Page    46
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/test_point.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TEST_POINT)
+PACKAGE TP_TP1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(TP_TP2;TP_TP3;TP;TP_TP5)'
+CLASS IC
+PINCOUNT 1
+END
+Sun Oct 03 18:30:28 2021				Page    47
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/test_point.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TEST_POINT)
+PACKAGE TP_TP1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(TP_TP2;TP_TP3;TP;TP_TP5)'
+CLASS IC
+PINCOUNT 1
+END
+Sun Oct 03 18:30:28 2021				Page    48
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/mc68hc908gp32_4.txt'.
+
+
+(DEVICE DESCRIPTION FILE: MC68HC908GP32_4)
+PACKAGE QUAD80M44WG1345
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 44
+END
+Sun Oct 03 18:30:28 2021				Page    49
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/tcs230.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TCS230)
+PACKAGE SOG0508WG275L250REV1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SOG0508WG275L250)'
+CLASS IC
+PINCOUNT 8
+END
+Sun Oct 03 18:30:28 2021				Page    50
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/tcs230.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TCS230)
+PACKAGE SOG0508WG275L250REV1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(SOG0508WG275L250)'
+CLASS IC
+PINCOUNT 8
+END
+Sun Oct 03 18:30:28 2021				Page    51
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/hm628512c.txt'.
+
+
+(DEVICE DESCRIPTION FILE: HM628512C)
+PACKAGE MEMORY_REV3
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 32
+END
+Sun Oct 03 18:30:28 2021				Page    52
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/dm74ls374wm_1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: DM74LS374WM_1)
+PACKAGE SOG05020WG420L500
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 20
+END
+Sun Oct 03 18:30:28 2021				Page    53
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/dm74ls374wm_1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: DM74LS374WM_1)
+PACKAGE SOG05020WG420L500
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 20
+END
+Sun Oct 03 18:30:28 2021				Page    54
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/max232a_1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: MAX232A_1)
+PACKAGE SOG05016WG420L400
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 16
+END
+Sun Oct 03 18:30:28 2021				Page    55
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/reg1117so1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: REG1117SO1)
+PACKAGE VREG
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 3
+END
+Sun Oct 03 18:30:28 2021				Page    56
+
+Parsing device file: 'C:/Users/Matthew/Documents/GitHub/Chemical-Detector/PCB.modernformat/LAYOUT/crystal.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CRYSTAL)
+PACKAGE RAD150X100LS100031
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+
+
+===========================================================
+Sun Oct 03 18:30:28 2021				Page     5
+
+
+
+
+
+Total Device File Warnings =  0.
+Total Device File Errors   =  0.
+
+===========================================================
+
+Total Combined Netlist and Device File Warnings =  15.
+Total Combined Netlist and Device File Errors   =  0.
+
+===========================================================
+End of Allegro NETLIST IN Log
+===========================================================
